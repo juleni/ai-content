@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 320px;
+  background-color: rgb(237, 246, 249);
+  color: rgb(74, 74, 158);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.label-input,
+.input-wrapper {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-field {
+  height: 28px;
+  background-color: rgb(211, 237, 245);
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.label-input {
+  width: 150px;
+  font-size: 14px;
+  margin-bottom: 2px;
+  margin-left: 0px;
+}
+
+.title,
+.input-button,
+.generated-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 95%;
+}
+
+.generate-btn {
+  border: 2px solid rgb(103, 170, 225);
+  background-color: transparent;
+  width: 100%;
+  padding: 0px 15px 2px;
+  border-radius: 50px;
+  font-size: 27px;
+  color: rgb(74, 74, 158);
+}
+
+.generate-btn:hover {
+  background-color: rgb(223, 244, 250);
+}
+
+textarea {
+  border: none;
+  background-color: rgb(211, 237, 245);
+  border-radius: 5px;
+  padding: 10px;
+}
